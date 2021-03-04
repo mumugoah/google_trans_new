@@ -166,7 +166,7 @@ class google_translator:
                             translate_text = ""
                             for sentence in sentences:
                                 sentence = sentence[0]
-                                translate_text += sentence.strip() + ' '
+                                translate_text += sentence
                             translate_text = translate_text
                             if pronounce == False:
                                 return translate_text
